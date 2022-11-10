@@ -5,8 +5,6 @@ import Header from "./header/Header";
 import Pages from "./routes/Pages";
 
 
-
-
 const App = () => {
     return (
         <div className="App">
@@ -16,8 +14,6 @@ const App = () => {
                 <Pages />
 
             </HashRouter>
-
-
         </div>
     )
 }
